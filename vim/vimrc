@@ -2,7 +2,6 @@ syntax on
 set number
 
 set mouse=a
-
 set shiftwidth=4
 set tabstop=4
 set expandtab
@@ -21,3 +20,5 @@ set wildmode=list:longest
 set number relativenumber
 
 set paste
+
+autocmd FileType gitcommit setlocal spell textwidth=72 colorcolumn=73
